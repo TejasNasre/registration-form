@@ -16,8 +16,8 @@ Follow the instructions below to set up and run the project on your local machin
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/project-registration-form.git
-   cd project-registration-form
+   git clone https://github.com/TejasNasre/registration-form.git
+   cd registration-form
    ```
 
 2. Install dependencies:

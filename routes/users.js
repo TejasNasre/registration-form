@@ -1,8 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongodbUri = "mongodb+srv://tejasnasre:rniyMtQsRTIv8iah@form.qm0t58e.mongodb.net/?retryWrites=true&w=majority";
-
-mongoose.connect(process.env.MONGODB_URI || mongodbUri);
+mongoose.connect(process.env.MONGODB_URI);
 
 const userSchema = new mongoose.Schema({
   firstname: {
